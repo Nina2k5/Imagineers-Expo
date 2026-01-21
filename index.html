@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>IMAGINEERS CONFERENCE EXPO25</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="favicon.png" type="image/x-png" />
+        <script type="text/javascript" src="script.js" defer></script>
+    </head>
+    
+    <body>
+<!--
+
+Purpose:
+- Navigation bar that allows users to jump to different sections of the webpage
+- Also holds buttons for user settings (dark mode, reduce motion)
+
+When To Modify:
+- [ ] Project 4 (REQUIRED FEATURE)
+- [ ] Project 5 (REQUIRED FEATURE) 
+- [ ] Project 8 (STRETCH FEATURE) 
+- [ ] Any time between / after
+-->
+<div class="navbar">
+    <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#schedule">Itinerary</a></li>
+    <li><a href="#register">Register</a></li>
+    <li><button id="themeButton">Toggle Dark Mode</button></li>
+
+    </ul>
+</div>
+
+        <div class="header-container">
+            <div id="header-left">
+                <img id="header-img" src="favicon.png" alt="Imagineers Conference Logo" />
+                <span>IMAGINEERING THE FUTURE: IMAGINEERS EXPO25</span>
+            </div>
+            <div id="header-right" class="button-group">
+                <button class="header-button">Register</button>
+                <button class="header-button">Itinerary</button>
+                <button id="reduceMotionBtn" class="header-button">Reduce Motion</button>
+            </div>
+            </div>
+        <h3>Where Imagination Meets Engineering</h3>
+        <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/39Do2eKCNrE" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </div>
+
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <div id="about"><h2>About the Event</h2>
+        <img src="img/speaker-photo.jpg" alt="A speaker event with live event session" width="400" />
+        <p>The Imagineering Expo is a celebration of creative engineering 
+            and innovation in experiential design. This event explores how 
+            engineers, storytellers, and designers come together to build 
+            immersive, interactive experiences that inspire wonder and bring 
+            ideas to life. From robotics and ride systems to themed environments
+             and emerging technologies, the expo showcases how imagination and 
+             technical skill can create powerful connections with people of all
+              ages. Attendees will discover how fields like mechanical engineering, 
+              computer science, architecture, marketing, and media can work together
+               to shape the future of entertainment, education, and community impact. 
+               Whether you're a future engineer, creative thinker, or storyteller, the 
+               Imagineering Expo invites you to explore what happens when you combine
+                innovation with imagination — and design with heart.</p>
+            </div>
+<section class="expectations">
+    <h3>What to Expect</h3>
+        <h4>Where Ideas Take Center Stage.</h4>
+        <ul class="expect-list">
+            <li> <b>Hands-on Demos:</b> <i>Experience interactive demonstrations from engineering projects that blend creativity and upcoming technology.</i></li>
+            <li> <b>Inspiring Imagineer Spotlights:</b> <i>Hear personal stories and career insights from industry professionals who are designing the future of immersive entertainment, innovation, and themed environments.</i></li>
+            <li> <b>Collaborative Design Challenges:</b> <i>Join fellow attendees in fun, fast-paced hallenges where you can let you imagination and problem-solving skill go wild and reimagine the future!</i></li>
+        </ul>
+</section>
+        
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <div id="schedule">
+        <h2>Event Schedule</h2>
+        <div class="schedule-items-wrapper">
+            <div class="schedule-item">
+            <img src="img/Imagineers-Intro.jpg" alt="Day 1 - Introduction of each imagineer and their story of work" width="400" /> 
+        <h3>Event Activity 1</h3>
+        <p>Introduction of each imagineer and their story of work</p>
+        </div>
+
+        <div class="schedule-item">
+        <img src="img/Imgagineer-Inventions.jpg" alt="Day 2 - Inventions from each imagineer are tested and shown off" width="400" />
+        <h3>Event Activity 2</h3>
+        <p>Inventions from each imagineer are tested and shown off</p>
+        </div>
+
+        <div class="schedule-item">
+        <img src="img/special-guests.jpg" alt="Day 3 - Special guests show up to talk about long awaited projects and advice to younger engineers" width="400" />         
+        <h3>Event Activity 3</h3>
+        <p>Special guests show up to talk about long awaited projects and advice to younger engineers</p>
+        </div>
+
+        </div>
+        
+        </div>
+        
+
+        
+<!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2>RSVP</h2>
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            The Imagineers Conference EXPO25 is your launchpad.
+             Its a space where students and aspiring engineers 
+             turn bold ideas into reality. Connect with fellow 
+             creators, showcase your passion, and explore how 
+             imagination fuels innovation. You dont have to wait 
+             to make an impact. Start imagining now. 
+             Join us at EXPO25.
+        <div class="rsvp-right-side">
+    <div class="rsvp-participants">
+      <p>✨ Walt from Illinois has RSVP'd.</p>
+      <p>✨ Thomas from Ohio has RSVP'd.</p>
+      <p>✨ Ada from London has RSVP'd.</p>
+    </div>
+    <p id="rsvp-count">⭐ 3 people have RSVP'd to this event!</p>
+  </div>
+</div>
+
+    
+
+    <!--- Sign RSVP Form --->
+    <div class="form-container">
+    <form id="rsvp-form" title="rsvp-form">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" autocomplete="name" required><br><br>
+
+    <label for="email">Email Address:</label><br>      
+    <input type="email" id="email" name="email" autocomplete="email" required><br><br>
+
+    <label for="state">State:</label><br>
+    <input type="text" id="state" name="state" autocomplete="address-level1" required><br><br>
+
+    <button id="rsvp-button">Submit RSVP</button>
+        </form>
+        <!-- Submit button -->
+        
+    </div>      
+</div>
+
+        <!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div id="modal-item">
+            <p id="modal-text">Thank you for signing up! We can’t wait to see you! </p>
+        </div>
+        <div id="modal-item">
+            <img src="img/happy.png" alt="Celebration image" />
+        </div>
+        <button id="closeModalBtn" class="close-modal-btn">Close</button>
+    </div>
+</div>
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+         <div>
+            <h2>Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://disneyimaginations.com/about-imaginations/about-imagineering/">
+            <article>
+                <h3>About Imagineering: Walt Disney</h3>
+                <p>Innovative designs within the world of Disney!</p>
+            </article>
+        </a>
+        <a class="block" href="https://en.wikipedia.org/wiki/Engineering">
+            <article>
+                <h3>Read about Engineeging on Wikipedia</h3>
+                <p>Learn about the histoy and practice of engineering within the world!</p>
+            </article>
+        </a>
+         </div>
+        
+            
+        <div class="footer">
+            <p>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+        <script src="script.js"></script>
+
+    </body>
